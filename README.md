@@ -1,14 +1,14 @@
 # Shiny App for the ProbApple model
 
-# Background
+## Background
 Models, such as the [ProbApple model](https://doi.org/10.5281/zenodo.14202192) are often hard to use without a proper user interface. Therefore we developed a Shiny App to run model. 
 A detailed description of the model is published in the research article [ProbApple – Aprobabilistic model to forecast apple yield and quality](https://doi.org/10.1016/j.agsy.2025.104298) (Schmitz et al., 2025)[^1]
 In short, ProbApple is a probabilistic model to forecast apple yield and quality at four key time points during the vegetation period: ‘at full bloom’, ‘before fruit thinning’, ‘after June drop’, ‘four weeks before harvest’. 
 
-# Technical requirements
+## Technical requirements
 To run the app locally on your computer, you need R and the packages shiny[^2], shinyWidgets[^3], datamods[^4], bslib[^5], reactable[^6], decisionSupport[^7], tidyverse[^8] and patchwork[^9].
 
-# Repository content
+## Repository content
 [`www`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/tree/main/www)is folder where all pictures needed in the App are stored. 
 
 [`Shiny_App_ProbApple.Rproj`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/blob/main/Shiny_App_ProbApple.Rproj) is the R project file for running the app
@@ -21,10 +21,13 @@ To run the app locally on your computer, you need R and the packages shiny[^2], 
 
 [`management_values.R`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/blob/main/management_values.R), [`management_values1.R`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/blob/main/management_values1.R), [`management_values2.R`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/blob/main/management_values2.R) and [`management_values3.R`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/blob/main/management_values3.R) help to read in the choosen management measures for the calculation.
 
-# Funding
-This work was part of the [Experimentierfeld Südwest] (https://ef-sw.de/) funded by the German Federal Ministry of Food and Agriculture [grant number: 28DE111B22].
+## Acknowledgments
+Thanks to [Lars Zimmermann](https://github.com/Lars-Zimmermann), [Katja Schiffers](https://github.com/katjaschiffers), Martin Balmer and [Eike Luedeling](https://github.com/eikeluedeling) for their contribution in the development of ProbApple. Furthermore, i thank all experts who contributed their knowledge to the workshop and model building
 
-# References
+## Funding
+This work was part of the [Experimentierfeld Südwest](https://ef-sw.de/) funded by the German Federal Ministry of Food and Agriculture [grant number: 28DE111B22].
+
+## References
 
 [^1]: Schmitz, C., Zimmerman, L., Schiffers, K., Balmer, M., Luedeling, E., 2025. ProbApple – A probabilistic model to forecast apple yield and quality. Agricultural Systems 226, 104298.
 [^2]: Chang W, Cheng J, Allaire J, Sievert C, Schloerke B, Xie Y, Allen J, McPherson J, Dipert A, Borges B (2025).
