@@ -9,7 +9,17 @@ In short, ProbApple is a probabilistic model to forecast apple yield and quality
 To run the app locally on your computer, you need R and the packages shiny[^2], shinyWidgets[^3], datamods[^4], bslib[^5], reactable[^6], decisionSupport[^7], tidyverse[^8] and patchwork[^9].
 
 # Repository content
+[`www`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/tree/main/www)is folder where all pictures needed in the App are stored. 
 
+[`Shiny_App_ProbApple.Rproj`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/blob/main/Shiny_App_ProbApple.Rproj) is the R project file for running the app
+
+[`app.R`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/blob/main/app.R) is the main file with the Shiny App and contains the UI and the server part. 
+
+[`apple_estimation_manuscript.csv`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/blob/main/apple_estimation_manuscript.csv) and [`apple_quality_input_manucript.csv`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/blob/main/apple_quality_input_manuscript.csv) are files with the initial input parameters
+
+[`functions_v2.R`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/blob/main/functions_v2.R) contains the yield and quality prediction functions for all forecasting time points
+
+[`management_values.R`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/blob/main/management_values.R), [`management_values1.R`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/blob/main/management_values1.R), [`management_values2.R`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/blob/main/management_values2.R) and [`management_values3.R`](https://github.com/ChristineSchmitz/Shiny_App_ProbApple/blob/main/management_values3.R) help to read in the choosen management measures for the calculation.
 
 # Funding
 This work was part of the [Experimentierfeld Südwest] (https://ef-sw.de/) funded by the German Federal Ministry of Food and Agriculture [grant number: 28DE111B22].
