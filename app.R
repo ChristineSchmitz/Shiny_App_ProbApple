@@ -1724,7 +1724,7 @@ server <- function(input, output) {
   output$text <- renderUI({
     url <- a("Experimentierfelds Suedwest", href="https://ef-sw.de")
     ulr_2<-a("hier", href="https://doi.org/10.1016/j.agsy.2025.104298")
-    logo<-img(src="BMEL_BLE.png", height =200)
+    logo<-img(src="BMLEH_BLE_neu.png", height =200)
     HTML(paste("<b>Entwicklung der App:</b> Christine Schmitz<sup>1,2</sup><br>",
                "<b>Entwicklung des Modells:</b> Christine Schmitz<sup>1,2</sup>, Lars Zimmermann<sup>1,2</sup>, Katja Schiffers<sup>2</sup>, Eike Luedeling<sup>2</sup> <br>",
                "<br>",
@@ -1748,7 +1748,7 @@ server <- function(input, output) {
                "<b>Förderung</b><br>",
                "Die Entwicklung des Modelles und der App wurde im Rahmen des<br>",
                url,
-               " durchgeführt und wurde vom Bundesministerium für Landwirtschaft und Ernährung gefördert (Förderkennzeichen 28DE111B22)<br>",
+               " durchgeführt und wurde vom Bundesministerium für Landwirtschaft, Ernährung und Heimat gefördert (Förderkennzeichen 28DE111B22)<br>",
                logo,
                sep = ""))
   })
